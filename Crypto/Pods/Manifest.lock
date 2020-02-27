@@ -1,0 +1,20 @@
+PODS:
+  - Inlineobjc (1.0.5)
+  - LzmaSDK-ObjC (2.0.9):
+    - Inlineobjc
+
+DEPENDENCIES:
+  - LzmaSDK-ObjC
+
+SPEC REPOS:
+  trunk:
+    - Inlineobjc
+    - LzmaSDK-ObjC
+
+SPEC CHECKSUMS:
+  Inlineobjc: 421a4302ac39cbd4a1a60983eec9b3a3ea84d444
+  LzmaSDK-ObjC: 212dba0d90ef349201648c3781d4a3d909c22624
+
+PODFILE CHECKSUM: 9b089beb173d9faa767636665ded3822c5038e65
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1002220D1E32A500009EFC06 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1002220C1E32A500009EFC06 /* Constant.m */; };
+		100D655F1E3267E400438260 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 100D655E1E3267E400438260 /* NSData+AES.m */; };
+		100D65621E326C4400438260 /* DnD.m in Sources */ = {isa = PBXBuildFile; fileRef = 100D65611E326C4400438260 /* DnD.m */; };
+		100D65651E32728700438260 /* EncryptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 100D65641E32728700438260 /* EncryptionManager.m */; };
+		10DAFACF1E3227BC00461D06 /* LzmaSDK_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DAFACE1E3227BC00461D06 /* LzmaSDK_ObjC.framework */; };
+		10DAFAD21E3228C600461D06 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DAFAD11E3228C600461D06 /* MainWindow.m */; };
+		10DAFAD61E322B4B00461D06 /* DropButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DAFAD51E322B4B00461D06 /* DropButton.m */; };
+		10DAFAD91E322B8500461D06 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DAFAD81E322B8500461D06 /* QuartzCore.framework */; };
+		10DECECD1E3224C6008845AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DECECC1E3224C6008845AE /* AppDelegate.m */; };
+		10DECED01E3224C6008845AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DECECF1E3224C6008845AE /* main.m */; };
+		10DECED31E3224C6008845AE /* ContentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DECED21E3224C6008845AE /* ContentWindow.m */; };
+		10DECED51E3224C6008845AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DECED41E3224C6008845AE /* Assets.xcassets */; };
+		10DECED81E3224C6008845AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DECED61E3224C6008845AE /* Main.storyboard */; };
+		1BD46CB4D27985A752636C02 /* Pods_Crypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BD718CB93F437D82AFC9B2 /* Pods_Crypto.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FF06702E90939C898E8D736 /* Pods-Crypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto/Pods-Crypto.release.xcconfig"; sourceTree = "<group>"; };
+		1002220C1E32A500009EFC06 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		100D65581E32655600438260 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		100D655D1E3267E400438260 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		100D655E1E3267E400438260 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		100D65601E326C4400438260 /* DnD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DnD.h; sourceTree = "<group>"; };
+		100D65611E326C4400438260 /* DnD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DnD.m; sourceTree = "<group>"; };
+		100D65631E32728700438260 /* EncryptionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionManager.h; sourceTree = "<group>"; };
+		100D65641E32728700438260 /* EncryptionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionManager.m; sourceTree = "<group>"; };
+		10DAFACE1E3227BC00461D06 /* LzmaSDK_ObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LzmaSDK_ObjC.framework; path = "Pods/../build/Debug/LzmaSDK-ObjC/LzmaSDK_ObjC.framework"; sourceTree = "<group>"; };
+		10DAFAD01E3228C600461D06 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		10DAFAD11E3228C600461D06 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
+		10DAFAD41E322B4B00461D06 /* DropButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropButton.h; sourceTree = "<group>"; };
+		10DAFAD51E322B4B00461D06 /* DropButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropButton.m; sourceTree = "<group>"; };
+		10DAFAD81E322B8500461D06 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		10DECEC81E3224C6008845AE /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10DECECB1E3224C6008845AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10DECECC1E3224C6008845AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10DECECF1E3224C6008845AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10DECED11E3224C6008845AE /* ContentWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentWindow.h; sourceTree = "<group>"; };
+		10DECED21E3224C6008845AE /* ContentWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentWindow.m; sourceTree = "<group>"; };
+		10DECED41E3224C6008845AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10DECED71E3224C6008845AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10DECED91E3224C6008845AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169DAF1CA9EDFD9CE6F03F4D /* Pods_NOMORECIA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NOMORECIA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3715809FCF380E30065BD20C /* Pods-NOMORECIA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOMORECIA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NOMORECIA/Pods-NOMORECIA.debug.xcconfig"; sourceTree = "<group>"; };
+		3E9B543A1B0C99437A238338 /* Pods-NOMORECIA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOMORECIA.release.xcconfig"; path = "Pods/Target Support Files/Pods-NOMORECIA/Pods-NOMORECIA.release.xcconfig"; sourceTree = "<group>"; };
+		494973132407C82E00CA1D65 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		61BD718CB93F437D82AFC9B2 /* Pods_Crypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04E06BFCD38F8F7EE483628 /* Pods-Crypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto/Pods-Crypto.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10DECEC51E3224C6008845AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DAFAD91E322B8500461D06 /* QuartzCore.framework in Frameworks */,
+				10DAFACF1E3227BC00461D06 /* LzmaSDK_ObjC.framework in Frameworks */,
+				1BD46CB4D27985A752636C02 /* Pods_Crypto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100D655C1E3267E400438260 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				100D655D1E3267E400438260 /* NSData+AES.h */,
+				100D655E1E3267E400438260 /* NSData+AES.m */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		100D65661E32734400438260 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				10DECED21E3224C6008845AE /* ContentWindow.m */,
+				10DAFAD11E3228C600461D06 /* MainWindow.m */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		100D65671E32735500438260 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				10DECECB1E3224C6008845AE /* AppDelegate.h */,
+				100D65581E32655600438260 /* Constant.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		10DAFAD71E322B4E00461D06 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				100D65601E326C4400438260 /* DnD.h */,
+				10DAFAD41E322B4B00461D06 /* DropButton.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		10DECEBF1E3224C6008845AE = {
+			isa = PBXGroup;
+			children = (
+				31FF6D3577079187B9CC7CC1 /* Frameworks */,
+				10DECECA1E3224C6008845AE /* Crypto */,
+				250813E1F02B4E0594EF42EB /* Pods */,
+				10DECEC91E3224C6008845AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10DECEC91E3224C6008845AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10DECEC81E3224C6008845AE /* Crypto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10DECECA1E3224C6008845AE /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				10DECEDF1E3224EE008845AE /* Classes */,
+				10DECECE1E3224C6008845AE /* Supporting Files */,
+				10FDB7521E32267000AFB744 /* View */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		10DECECE1E3224C6008845AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				100D65671E32735500438260 /* Headers */,
+				100D655C1E3267E400438260 /* libs */,
+				10DECECC1E3224C6008845AE /* AppDelegate.m */,
+				10DECED41E3224C6008845AE /* Assets.xcassets */,
+				10DECED91E3224C6008845AE /* Info.plist */,
+				10DECECF1E3224C6008845AE /* main.m */,
+				1002220C1E32A500009EFC06 /* Constant.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10DECEDF1E3224EE008845AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				100D65661E32734400438260 /* GUI */,
+				10DECEE01E322560008845AE /* Headers */,
+				100D65641E32728700438260 /* EncryptionManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		10DECEE01E322560008845AE /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				10DECED11E3224C6008845AE /* ContentWindow.h */,
+				100D65631E32728700438260 /* EncryptionManager.h */,
+				10DAFAD01E3228C600461D06 /* MainWindow.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		10FDB7521E32267000AFB744 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10DAFAD71E322B4E00461D06 /* Headers */,
+				100D65611E326C4400438260 /* DnD.m */,
+				10DAFAD51E322B4B00461D06 /* DropButton.m */,
+				10DECED61E3224C6008845AE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		250813E1F02B4E0594EF42EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3715809FCF380E30065BD20C /* Pods-NOMORECIA.debug.xcconfig */,
+				3E9B543A1B0C99437A238338 /* Pods-NOMORECIA.release.xcconfig */,
+				E04E06BFCD38F8F7EE483628 /* Pods-Crypto.debug.xcconfig */,
+				0FF06702E90939C898E8D736 /* Pods-Crypto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		31FF6D3577079187B9CC7CC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494973132407C82E00CA1D65 /* Podfile */,
+				10DAFAD81E322B8500461D06 /* QuartzCore.framework */,
+				10DAFACE1E3227BC00461D06 /* LzmaSDK_ObjC.framework */,
+				169DAF1CA9EDFD9CE6F03F4D /* Pods_NOMORECIA.framework */,
+				61BD718CB93F437D82AFC9B2 /* Pods_Crypto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10DECEC71E3224C6008845AE /* Crypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10DECEDC1E3224C6008845AE /* Build configuration list for PBXNativeTarget "Crypto" */;
+			buildPhases = (
+				25C02867ED05B4CACD74DD1C /* [CP] Check Pods Manifest.lock */,
+				10DECEC41E3224C6008845AE /* Sources */,
+				10DECEC51E3224C6008845AE /* Frameworks */,
+				10DECEC61E3224C6008845AE /* Resources */,
+				396E476CF9E8ED4D82303156 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crypto;
+			productName = NOMORECIA;
+			productReference = 10DECEC81E3224C6008845AE /* Crypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10DECEC01E3224C6008845AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Evgeniy;
+				TargetAttributes = {
+					10DECEC71E3224C6008845AE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 10DECEC31E3224C6008845AE /* Build configuration list for PBXProject "Crypto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 10DECEBF1E3224C6008845AE;
+			productRefGroup = 10DECEC91E3224C6008845AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10DECEC71E3224C6008845AE /* Crypto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10DECEC61E3224C6008845AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DECED51E3224C6008845AE /* Assets.xcassets in Resources */,
+				10DECED81E3224C6008845AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25C02867ED05B4CACD74DD1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crypto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		396E476CF9E8ED4D82303156 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crypto/Pods-Crypto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LzmaSDK-ObjC/LzmaSDK_ObjC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LzmaSDK_ObjC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Crypto/Pods-Crypto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10DECEC41E3224C6008845AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DAFAD21E3228C600461D06 /* MainWindow.m in Sources */,
+				10DECED31E3224C6008845AE /* ContentWindow.m in Sources */,
+				10DECED01E3224C6008845AE /* main.m in Sources */,
+				10DAFAD61E322B4B00461D06 /* DropButton.m in Sources */,
+				100D655F1E3267E400438260 /* NSData+AES.m in Sources */,
+				100D65621E326C4400438260 /* DnD.m in Sources */,
+				10DECECD1E3224C6008845AE /* AppDelegate.m in Sources */,
+				1002220D1E32A500009EFC06 /* Constant.m in Sources */,
+				100D65651E32728700438260 /* EncryptionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10DECED61E3224C6008845AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10DECED71E3224C6008845AE /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10DECEDA1E3224C6008845AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		10DECEDB1E3224C6008845AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		10DECEDD1E3224C6008845AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04E06BFCD38F8F7EE483628 /* Pods-Crypto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug/LzmaSDK-ObjC",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Crypto/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattiaborsoi.Crypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10DECEDE1E3224C6008845AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF06702E90939C898E8D736 /* Pods-Crypto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug/LzmaSDK-ObjC",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Crypto/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattiaborsoi.Crypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10DECEC31E3224C6008845AE /* Build configuration list for PBXProject "Crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10DECEDA1E3224C6008845AE /* Debug */,
+				10DECEDB1E3224C6008845AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10DECEDC1E3224C6008845AE /* Build configuration list for PBXNativeTarget "Crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10DECEDD1E3224C6008845AE /* Debug */,
+				10DECEDE1E3224C6008845AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10DECEC01E3224C6008845AE /* Project object */;
+}

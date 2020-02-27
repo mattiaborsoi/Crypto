@@ -1,0 +1,6 @@
+target 'Crypto' do
+  use_frameworks!
+
+  pod 'LzmaSDK-ObjC', :inhibit_warnings => true
+
+end

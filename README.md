@@ -1,4 +1,4 @@
-NOMORECIA
+Crypto
 
 Inspired by Encrypto application
 
